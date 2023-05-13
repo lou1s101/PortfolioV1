@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black; /* sets background color */
+    color: #858282; /* sets font color */
+}
+
+h1{
+    padding-left: 40px;
+}
+
+
+.mainBody{
+    position: fixed;
+    top: 30px;
+    left: 24px;
+    width: calc(100% - 48px);
+    height: calc(100% - 60px);
+    background-color: aqua;
+    background-image: url();
+
+}
+
+#bg-video {
+    position: fixed;
+    top: 30px;
+    left: 24px;
+    width: calc(100% - 48px);
+    height: calc(100% - 60px);
+    z-index: -1;
+  }
